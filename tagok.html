@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+
+    <title>Ürlap</title>
+</head>
+
+<body>
+    <table>
+
+        <h1>Alapadatok</h1>
+
+
+        <tr>
+            <th>
+                <form action="Név">
+
+                    <lable for="név">Teljes neve:</lable>
+            </th>
+            <th><input type="text" id="név" name="név"></th>
+        </tr>
+        <tr>
+            <th>Nemed</th>
+            <th><label><input type="checkbox" name="nem1" value="férfi" class="cs" checked>férfi</label>
+                <label><input type="checkbox" name="nem2" value="nő" class="cs" checked>nő</label>
+            </th>
+        </tr>
+        <tr></tr>
+        <th>
+            <form name="email">
+                <lable for="email">Email címed</lable>
+        </th>
+        <th><input type="email" id="email" name="email">
+        <th></th>
+        </tr>
+        <tr>
+            <th><label>Telefonszám</label></th>
+            <th><select name="telefonszám">
+                    <option value="+36">+36</option>
+                    <option value="+39">+39</option>
+                    <option value="+50">+50</option>
+                    <option value="+20">+20</option>
+                </select></lable>
+
+                <input type="text" id="telefonszám" name="telefonszám">
+            </th>
+        </tr>
+        <tr>
+            <th><label>Levelezés alapnyelve</label></th>
+            <th><select name="nyelv">
+                    <option value="nyelv1">Magyar</option>
+                    <option value="nyelv2">English</option>
+                    <option value="nyelv3">Germany</option>
+                    <option value="nyelv4">Chinese</option>
+                </select></lable>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <lable for="szülinap">Születési éve</lable>
+            </th>
+            <th> <input type="date" id="szülinap" name="szülinap">
+
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>Add meg a születésnapod és várd a meglepetést.</th>
+        </tr>
+        <tr></tr>
+        <th><input type="submit" id="gomb"></th>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
